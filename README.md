@@ -26,4 +26,8 @@ This will do the following:
 5. Show and Save Image: The generated image is saved to the `images` directory and displayed in the default image viewer.
 
 ## Useful resources
+* [Azure OpenAI Service REST API reference](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference)
+* [Detailed breakdown of what to pass to `client.images.generate`](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#request-body-5)
+* [Response of `client.images.generate`](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#responses-5)
 * [Response after calling `images.generate()`](https://learn.microsoft.com/en-us/azure/ai-services/openai/supported-languages?tabs=dotnet-secure%2Csecure%2Cpython-secure%2Cresponse&pivots=programming-language-python#imagesgenerate)
+* [Where/why to use the `model_dump_json` method](https://docs.pydantic.dev/2.10/concepts/serialization/#modelmodel_dump_json)
