@@ -6,16 +6,16 @@ This repository demonstrates how to generate images using the AzureOpenAI servic
 2. The following imports are needed
    ```python
    import os
-  import json
-  import requests
-  
-  from PIL import Image
-  from dotenv import load_dotenv
-  
-  import pandas as pd
-  from openai import AzureOpenAI
-  from typing import Any, Dict
-  ```
+   import json
+   import requests
+   
+   from PIL import Image
+   from dotenv import load_dotenv
+   
+   import pandas as pd
+   from openai import AzureOpenAI
+   from typing import Any, Dict
+   ```
 
 ## Environment Variables
 Make sure to place the values for each environment variable (in the `.env` file) as defined in your Azure OpenAI resource. This requires an `API_VERSION`, `API_KEY` and `ENDPOINT`
