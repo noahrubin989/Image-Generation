@@ -1,8 +1,15 @@
 # Azure OpenAI Image Generation with Python
-This repository demonstrates how to generate images using the AzureOpenAI service in Python. It uses a simple script to generate an image (saved in an `images` directory) and safety reports (saved in a `datasets` directory) based on a prompt. 
+This repository demonstrates how to generate images using the AzureOpenAI service in Python. It uses a script to generate an image (saved in an `images` directory) and safety reports (saved in a `datasets` directory) based on a prompt. 
+
+For example, a user can enter a prompt in the script such as "A dog riding a surfboard". From there, an image will be generated based on this prompt and saved to an `images` directory. Two safety report around aspects such as hate speech, violence etc. will also be generated, and placed in a directory called `datasets`.
+
+Example business benefits:
+* Reduced Design Costs: Automating the process of creating images can reduce dependence on external designers lowering ongoing costs.
+* Fast Prototyping: Quickly generating multiple image variants allows marketing and product teams to experiment and iterate, saving time and resources.
+* API-driven: Since the service is API-driven, it can be called automatically at any time from various applications or internal tools.
 
 ## Prerequisites
-1. You must set up an deploy Azure OpenAI resource and retrieve the resource API version, API key and endpoint, which can be found in the Azure AI Foundry Portal after deploying the resource.
+1. You must set up and deploy Azure OpenAI resource and retrieve the resource API version, API key and endpoint, which can be found in the Azure AI Foundry Portal after deploying the resource.
 2. The following imports are needed
    ```python
    import os
