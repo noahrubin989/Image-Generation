@@ -1,0 +1,5 @@
+category,filtered,severity
+hate,False,safe
+self_harm,False,safe
+sexual,False,safe
+violence,False,safe
