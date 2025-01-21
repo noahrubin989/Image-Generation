@@ -2,7 +2,7 @@
 Noah Rubin (Written on 21/01/2025)
 
 ## Overview
-This repository demonstrates how to generate images using the AzureOpenAI service in Python. It uses a script to generate an image (saved in an `images` directory) and safety reports (saved in a `datasets` directory) based on a prompt. 
+This repository demonstrates how to generate images using the AzureOpenAI service in Python. It uses a script to generate an image (saved in an `images` directory) and safety reports (saved in a `datasets` directory) based on a prompt.
 
 For example, a user can enter a prompt in the script such as "A dog riding a surfboard". From there, an image will be generated based on this prompt and saved to an `images` directory. Two safety report around aspects such as hate speech, violence etc. will also be generated, and placed in a directory called `datasets`.
 
