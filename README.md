@@ -29,10 +29,16 @@ Example business benefits:
    ```
 
 ## Environment Variables
-Make sure to place the values for each environment variable (in the `.env` file) as defined in your Azure OpenAI resource. This requires an `API_VERSION`, `API_KEY` and `ENDPOINT`
+Make sure to place the values for each environment variable (in the `.env` file) as defined in your Azure OpenAI resource. This requires an `API_VERSION`, `API_KEY` and `ENDPOINT`. Your `.env` file would appear as follows:
+
+```
+API_VERSION=your_api_version
+API_KEY=your_api_key
+ENDPOINT=your_endpoint
+```
 
 ## How to Run
-Once the environment variables have been correctly set up, run the script as follows
+Once the environment variables have been correctly set up, run the script as follows:
 
 ```python
 python3 image_generation.py
