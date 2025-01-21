@@ -40,7 +40,7 @@ ENDPOINT=your_endpoint
 ## How to Run
 Once the environment variables have been correctly set up, run the script as follows:
 
-```python
+```
 python3 image_generation.py
 ```
 
