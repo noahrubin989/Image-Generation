@@ -46,7 +46,7 @@ This will do the following:
 
 3. Create Directories: The images and datasets directories are created if they do not already exist.
 
-4. Safety Reports: Two CSV files `prompt_filter_results_report.csv` and `content_filter_results_report.csv` are saved in the datasets directory.
+4. Safety Reports: Two CSV files `prompt_filter_results_report.csv` and `content_filter_results_report.csv` are saved in the `datasets` directory.
 
 5. Show and Save Image: The generated image is saved to the `images` directory and displayed in the default image viewer.
 
