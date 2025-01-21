@@ -13,7 +13,7 @@ Example business benefits:
 * Showcasing AI Expertise: Demonstrating sophisticated uses of AI can bolster a firm’s reputation, attracting both customers and top-tier talent.
 
 ## Prerequisites
-1. You must set up and deploy Azure OpenAI resource and retrieve the resource API version, API key and endpoint, which can be found in the Azure AI Foundry Portal after deploying the resource.
+1. You must set up and deploy Azure OpenAI resource and retrieve the resource API version, API key and endpoint, which can be found in the Azure AI Foundry Portal after deploying the resource inside Azure.
 2. The following imports are needed
    ```python
    import os
