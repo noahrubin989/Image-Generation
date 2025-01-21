@@ -1,5 +1,4 @@
 # Azure OpenAI Image Generation with Python
-Noah Rubin (Written on 21/01/2025)
 
 ## Overview
 This repository demonstrates how to generate images using the AzureOpenAI service in Python. It uses a script to generate an image (saved in an `images` directory) and safety reports (saved in a `datasets` directory) based on a prompt.
